@@ -5,14 +5,14 @@ public class rec {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		System.out.println("ÇÑ º¯ÀÇ ±æÀÌ¸¦ Á¤ÇØÁÖ¼¼¿ä.");
-		int a;
-		a = s.nextInt();
+		System.out.println("í•œ ë³€ì˜ ê¸¸ì´ë¥¼ ì •í•´ì£¼ì„¸ìš”.");
+		int number;
+		number = s.nextInt();
 
 		
-		for (a = 1; a <= 10; a++) {
+		for (int a = 1; a <= number; a++) {
 
-			for (a = 1; a <= 10; a++) {
+			for (int b = 1; b <= number; b++) {
 				System.out.print("*");
 		}
 	System.out.println();}
